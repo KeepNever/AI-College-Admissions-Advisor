@@ -4,6 +4,16 @@
 
 ![推荐结果页](docs/screenshots/03-recommendations.png)
 
+## 在线 Demo
+
+> **可以直接点开体验**：[https://gaokao-advisor-demo-64324.app.workbuddy.host/?sharecode=IGU4NFEYN6](https://gaokao-advisor-demo-64324.app.workbuddy.host/?sharecode=IGU4NFEYN6)
+>
+> 打开后即可走完整流程：分步填写信息 → 自动反查位次 → 四梯度志愿推荐 → 录取风险诊断。
+>
+> **使用提示**：链接末尾的 `sharecode` 是访问凭证，请完整复制。若打开后跳转到 `/login` 并提示「链接不完整」，说明参数在跳转中丢失了——回到上面的完整链接重新进入，或在地址栏补上 `?sharecode=IGU4NFEYN6` 即可。
+>
+> 演示版为适应无数据库的单端口部署环境，使用内存数据 + 本地位次排序兜底，推荐理由为固定文案、无大模型个性化解释。它展示的是**产品流程与界面**；大模型的真实排序效果需按下方「快速开始」配置 API Key 后本地运行。
+
 ## 一眼看懂
 
 | 维度 | 内容 |
