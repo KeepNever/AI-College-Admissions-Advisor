@@ -1,0 +1,29 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.tsbuildinfo
+build/
+
+# 环境变量与密钥（只提交模板）
+.env
+.env.*
+!.env.example
+!.env.prod.template
+
+# 本地数据库与下载缓存
+.postgres/
+.downloads/
+*.log
+debug.log
+test_output.txt
+
+# 编辑器与系统
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# WorkBuddy / 浏览器调试产物
+.workbuddy/
+.playwright-cli/
+.artifacts/
